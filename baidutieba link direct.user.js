@@ -16,5 +16,6 @@ jquery("a").each(function(){
     if (href1.indexOf("safecheck")>-1){
     jquery(this).attr("href",jquery(this).text());
                               //$(this).unbind();
-    };});
+    };
+});
 
