@@ -12,4 +12,4 @@
 $("#rso .r a").each(function(){
     $(this).removeAttr("onmousedown");
     $(this).attr("href",$(this).attr("data-href"));
-                              });
+});
