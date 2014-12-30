@@ -10,17 +10,12 @@
 // ==/UserScript==
 
 var it=setInterval(function(){
-         
-        var abc=jQuery(".tb-prop");
-        if (abc.length<1){return;}
-        clearInterval(it);
-        
-        $('span:contains(175)').click();//选型号
-    $('span:contains(翠绿色)').click();
-
-    setTimeout(function(){location.reload();},5000); 
-
+         var abc=jQuery(".tb-prop");
+         if (abc.length<1){return;}
+         clearInterval(it);
+         $('span:contains(175)').click();//选型号
+         $('span:contains(翠绿色)').click();
+         setTimeout(function(){location.reload();},5000);
 },500); 
-setInterval(
-    function(){$(".ensureText").click();},500);
+setInterval(function(){$(".ensureText").click();},500);
 
